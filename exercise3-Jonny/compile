@@ -1,0 +1,7 @@
+# load modules
+#module load mpt
+#module load intel-compilers-19
+
+mpicxx trapezoidal.cpp -o trapzserialexe
+mpicxx trapezoidal-par-nmax.cpp -o trapzexe
+mpicxx trapezoidal-par-nmax-square.cpp -o trapzsqexe
